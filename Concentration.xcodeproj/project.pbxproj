@@ -54,14 +54,22 @@
 		B1D9017020146F1C009ADF3C /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				B1D9017120146F1C009ADF3C /* AppDelegate.swift */,
 				B1D9017320146F1C009ADF3C /* ViewController.swift */,
 				B1D9017520146F1C009ADF3C /* Main.storyboard */,
-				B1D9017820146F1C009ADF3C /* Assets.xcassets */,
-				B1D9017A20146F1C009ADF3C /* LaunchScreen.storyboard */,
+				B1D9018320147644009ADF3C /* Supporting files */,
 				B1D9017D20146F1C009ADF3C /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		B1D9018320147644009ADF3C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9017120146F1C009ADF3C /* AppDelegate.swift */,
+				B1D9017820146F1C009ADF3C /* Assets.xcassets */,
+				B1D9017A20146F1C009ADF3C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
