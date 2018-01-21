@@ -12,6 +12,8 @@
 		B1D9017720146F1C009ADF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D9017520146F1C009ADF3C /* Main.storyboard */; };
 		B1D9017920146F1C009ADF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D9017820146F1C009ADF3C /* Assets.xcassets */; };
 		B1D9017C20146F1C009ADF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D9017A20146F1C009ADF3C /* LaunchScreen.storyboard */; };
+		B1D901852014A3FF009ADF3C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D901842014A3FF009ADF3C /* Concentration.swift */; };
+		B1D901872014A5B8009ADF3C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D901862014A5B8009ADF3C /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B1D9017820146F1C009ADF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D9017B20146F1C009ADF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D9017D20146F1C009ADF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D901842014A3FF009ADF3C /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		B1D901862014A5B8009ADF3C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				B1D9017320146F1C009ADF3C /* ViewController.swift */,
 				B1D9017520146F1C009ADF3C /* Main.storyboard */,
+				B1D901842014A3FF009ADF3C /* Concentration.swift */,
+				B1D901862014A5B8009ADF3C /* Card.swift */,
 				B1D9018320147644009ADF3C /* Supporting files */,
 				B1D9017D20146F1C009ADF3C /* Info.plist */,
 			);
@@ -146,6 +152,8 @@
 			files = (
 				B1D9017420146F1C009ADF3C /* ViewController.swift in Sources */,
 				B1D9017220146F1C009ADF3C /* AppDelegate.swift in Sources */,
+				B1D901852014A3FF009ADF3C /* Concentration.swift in Sources */,
+				B1D901872014A5B8009ADF3C /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
