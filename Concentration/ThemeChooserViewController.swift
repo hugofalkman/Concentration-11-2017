@@ -17,6 +17,7 @@ class ThemeChooserViewController: UIViewController, UISplitViewControllerDelegat
     ]
     
     override func awakeFromNib() {
+        super.awakeFromNib()
         splitViewController?.delegate = self
     }
     
