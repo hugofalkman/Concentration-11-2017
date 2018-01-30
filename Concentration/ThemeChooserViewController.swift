@@ -8,7 +8,11 @@
 
 import UIKit
 
-class ThemeChooserViewController: UIViewController, UISplitViewControllerDelegate {
+class ThemeChooserViewController: VCLLoggingViewController, UISplitViewControllerDelegate {
+    
+    override var vclLoggingName: String {
+        return "ThemeChooser"
+    }
 
     let themes = [
         "Sports": "⚽️🏀🏈⚾️🎾🏐🏉🎱🏓⛷🎳⛳️",
@@ -31,18 +35,18 @@ class ThemeChooserViewController: UIViewController, UISplitViewControllerDelegat
     }
     
     @IBAction func changeTheme(_ sender: Any) {
-        if let cvc = splitViewDetailCVC {
-            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
-                cvc.theme = theme
-            }
-        } else if let cvc = lastSeguedToCVC {
-            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
-                cvc.theme = theme
-            }
-            navigationController?.pushViewController(cvc, animated: true)
-        } else {
+//        if let cvc = splitViewDetailCVC {
+//            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
+//                cvc.theme = theme
+//            }
+//        } else if let cvc = lastSeguedToCVC {
+//            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
+//                cvc.theme = theme
+//            }
+//            navigationController?.pushViewController(cvc, animated: true)
+//        } else {
             performSegue(withIdentifier: "Choose Theme", sender: sender)
-        }
+//        }
     }
     
     private var splitViewDetailCVC: ConcentrationViewController? {
